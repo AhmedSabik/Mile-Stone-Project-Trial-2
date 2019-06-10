@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"');
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet"');
 @import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700,800,900&display=swap" rel="stylesheet"');
 
 header {
@@ -49,6 +49,7 @@ header {
     font-weight: 100;
     font-size: 40px;
     margin: 20px;
+    text-shadow: 2px 1px #981b27;
     
 }
 
@@ -160,7 +161,7 @@ header {
 
 /*---------------------------- Main Image and Testimonial */
 
-.main-background-image {
+.first-background-image {
     height: 100vh;
     background: url('../images/01-background-home-top-image.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
@@ -183,17 +184,17 @@ header {
 }
 
 .jumbotron h4 {
-    font-family: "Exo", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #ffffff;
     /*text-transform: uppercase;*/
     font-size: 24px;
     max-width: 500px;
-    font-weight: 300;
+    font-weight: 400;
     
 }
 
 .jumbotron span {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .jumbotron p {
@@ -201,19 +202,20 @@ header {
     color: #f5f2d0;
 }
 
-/*---------- Listen to Sandstrom Man Button Manipulation */
+/*---------- Listen to Sandstrom Man Button Manipulation (and other buttons) */
 
 .btn-outline-secondary {
     color: #ffffff;
     border-color: #ffffff;
-    /*text-shadow: 1px 1px #000000;*/
+    border-radius: 0;
+    transition: .3s;
 }
 
 .btn-outline-secondary:hover {
-    color: #ffffff;
-    background-color: rgba(0, 0, 0, 0.6);
+    color: #000000;
+    background-color: #ffffff;
     border-color: #ffffff;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 
@@ -221,25 +223,95 @@ header {
 
 /*---------------------------- Welcome Section */
 
-.row-table {
-    display: table;
-}
-
-.welcome-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
 .bg-color-welcome {
         background-color: #000000;
+}
+
+#welcome-details {
+    padding: 20px;
 }
 
 .welcome-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300px;
-    color: #ffffff;
+    color: #dc3545;
+    /*color: #ffffff;*/
     margin-top: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 15px;
+    /*letter-spacing: 1px;*/
     
+}
+
+.welcome-text {
+   font-family: "Roboto", sans-serif; 
+   font-weight: 100;
+   color: #f2f2f2;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+/*---------------------------- Social Section */
+
+.bg-color-social {
+        background-color: #000000;
+}
+
+#social-details {
+    padding: 25px;
+    max-width: 320px;
+    margin-bottom: 20px;
+}
+
+.social-text-align {
+    text-align: center;
+}
+
+.social-links {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.social-links li a i {
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 20px;
+    /*line-height: 7px;*/
+    text-align: center;
+    color: #fafafa;
+    /*background: #8f8f8f;*/
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    color: #dc3545;
+}
+
+.book-us-button-text {
+    font-family: "Exo", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #f2f2f2;
+}
+
+
+/*---------------------------- New Album Out Now */
+
+.second-background-image {
+    height: 100vh;
+    background: url('../images/03-background-home-top-image.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    position: relative;
 }
