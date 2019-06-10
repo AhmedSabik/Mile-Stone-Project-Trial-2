@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap" rel="stylesheet"');
+@import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700,800,900&display=swap" rel="stylesheet"');
+
+header {
+    margin: 0;
+}
+
+
+/* ---------------------------- Sign In Alert -----*/
+
+.sign-in-container {
+    /*position: absolute;*/
+    top: 0;
+    padding: 0; 
+    z-index: 1;
+}
+
+.sign-in-alert {
+    background-color: #dc3545;
+    border: 1px solid transparent;
+    padding: 5px 15px;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.btn-sm {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+/* ---------------------------- Navbar -----*/
+
+.bg-navbar-left {
+    background-color: #000000;
+}
+
+.bg-navbar-right {
+    background-color: #000000;
+}
+
+
+/* -----------------------------navbar left */
+
+.logo {
+    
+    font-family: "Lobster", sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 20px;
+    
+}
+
+
+
+.logo a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+
+.navbar-left {
+    background-size: cover;
+    height: 70px;
+    text-align: center;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    
+    .navbar-left {
+        background-size: cover;
+        height: 100px;
+        text-align: center;
+        padding: 0;
+    }
+}
+
+
+/* -----------------------------navbar right */
+
+/* ------for small screens */
+
+.navbar-right {
+    height: 50px;
+    padding: 0;
+    text-align: center;
+}
+
+
+.menuitems {
+    font-size: 12px;
+    padding: 0;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    
+}
+
+.menuitems a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.menuitems span {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px;
+    padding-right: 0px;
+
+}
+
+
+/*----------------------------Hover manipulate */
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    color: #dc3545;
+    font-weight: 500;
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* ------for large screens */
+
+@media screen and (min-width: 768px) {
+    
+    .navbar-right {
+        height: 100px;
+        padding: 0;
+        text-align: right;
+    }
+
+    .menuitems {
+        font-size: 14px;
+        padding: 0;
+        margin-top: 60px;
+        margin-right: 20px;
+    }
+    
+    .menuitems span {
+        display: block;
+        text-transform: uppercase;
+        font-weight: 200;
+        letter-spacing: 2px;
+        padding-right: 10px;
+    
+    }
+
+}
+
+
+
+/*---------------------------- Main Image and Testimonial */
+
+.main-background-image {
+    height: 100vh;
+    background: url('../images/01-background-home-top-image.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    position: relative;
+}
+
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h4 {
+    font-family: "Exo", sans-serif;
+    color: #ffffff;
+    /*text-transform: uppercase;*/
+    font-size: 24px;
+    max-width: 500px;
+    font-weight: 300;
+    
+}
+
+.jumbotron span {
+    font-weight: 400;
+}
+
+.jumbotron p {
+    font-family: "Roboto", sans-serif;
+    color: #f5f2d0;
+}
+
+/*---------- Listen to Sandstrom Man Button Manipulation */
+
+.btn-outline-secondary {
+    color: #ffffff;
+    border-color: #ffffff;
+    /*text-shadow: 1px 1px #000000;*/
+}
+
+.btn-outline-secondary:hover {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-color: #ffffff;
+    font-weight: 600;
+}
+
+
+
+
+/*---------------------------- Welcome Section */
+
+.row-table {
+    display: table;
+}
+
+.welcome-column {
+    display: table-cell;
+    padding: 0 30px 30px;
+    float: none;
+}
+
+.bg-color-welcome {
+        background-color: #000000;
+}
+
+.welcome-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300px;
+    color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    
+}
