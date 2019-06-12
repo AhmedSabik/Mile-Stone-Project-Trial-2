@@ -233,12 +233,9 @@ header {
 
 .welcome-heading {
     font-family: "Exo", sans-serif;
-    font-weight: 300px;
     color: #dc3545;
-    /*color: #ffffff;*/
     margin-top: 25px;
-    margin-bottom: 15px;
-    /*letter-spacing: 1px;*/
+    margin-bottom: 10px;
     
 }
 
@@ -246,6 +243,7 @@ header {
    font-family: "Roboto", sans-serif; 
    font-weight: 100;
    color: #f2f2f2;
+   margin-bottom: 25px;
 }
 
 .inline-block {
@@ -302,6 +300,10 @@ header {
 
 /*---------------------------- New Album Out Now */
 
+.album-image-container {
+    margin: 20px 0; 
+}
+
 .second-background-image {
     height: 100vh;
     background: url('../images/03-background-home-top-image.jpg') no-repeat top center fixed;
@@ -314,4 +316,59 @@ header {
     justify-content: center;
     transition: all .5s ease-in-out;
     position: relative;
+}
+
+@media screen and (min-width: 768px) {
+    .album-image-container {
+        float: right;
+    }
+    
+    .clearfix {
+        overflow: auto;
+    }
+}
+
+.album-text-container {
+    max-width: 300px;
+}
+
+.album-text-container h3 {
+    font-family: "Exo", sans-serif;
+    color: #dc3545;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.album-text-container h4 {
+    font-family: "Exo", sans-serif;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+}
+
+.album-text-container p {
+   font-family: "Roboto", sans-serif; 
+   font-weight: 100;
+   color: #f2f2f2;
+   margin-bottom: 10px;
+}
+
+
+/* -----------------------------Footer */
+
+footer {
+    background-color: #000000;
+    min-height: 120px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.copyright-footer {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #999999;
+    font-weight: 200;
 }
