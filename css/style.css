@@ -6,6 +6,14 @@ header {
     margin: 0;
 }
 
+body {
+    margin: 0;
+}
+
+footer {
+    margin: 0;
+}
+
 
 /* ---------------------------- Sign In Alert -----*/
 
@@ -185,6 +193,7 @@ header {
     justify-content: center;
     transition: all .5s ease-in-out;
     position: relative;
+    max-height: 600px;
 }
 
 
@@ -276,30 +285,27 @@ header {
 }
 
 
-#social-details {
+.social-details {
     padding: 25px;
-    max-width: 320px;
-    margin: 0px;
     text-align: center;
+    margin: 0;
+    border: 0;
+    outline: 0;
 }
 
-.social-text-align {
-    
-}
 
 .social-links {
     margin-top: 10px;
-    margin-bottom: 0px;
+    margin-bottom: 5px;
 }
 
 .social-links li a i {
-    padding: 12px 0;
+    /*padding: 12px 0;*/
     border-radius: 50%;
-    font-size: 20px;
+    font-size: 16px;
     /*line-height: 7px;*/
     text-align: center;
     color: #fafafa;
-    /*background: #8f8f8f;*/
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -312,17 +318,86 @@ header {
 
 .book-us-button-text {
     font-family: "Exo", sans-serif;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 300;
-    color: #f2f2f2;
+    color: #dc3545;
+    margin-bottom: 10px;
+    max-width: 320px;
+}
+
+/*---------- Book Us Now Button Manipulation */
+
+.social-details btn-outline-secondary {
+    color: #dc3545;
+    border-color: #dc3545;
+    border-radius: 0;
+    transition: .3s;
+}
+
+.social-details btn-outline-secondary:hover {
+    color: #dc3545;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-weight: 700;
 }
 
 
 /*---------------------------- New Album Out Now */
 
-.album-image-container {
-    margin: 20px 0; 
+.second-background-image {
+    height: 100vh;
+    background: url('../images/03-background-home-top-image.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    position: relative;
+    max-height: 550px;
 }
+
+/*-- card manipulation */
+
+.card-deck {
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 0.5rem;
+    margin: 0;
+    /*background-color: transparent;*/
+    border: none;
+    outline: none;
+}
+
+.album-text h3 {
+    font-family: "Exo", sans-serif;
+    color: #dc3545;
+    margin-bottom: 5px;
+    margin-top: 0;
+    padding-top: 0;
+    
+}
+
+.album-text h4 {
+    font-family: "Exo", sans-serif;
+    color: #ffffff;
+    margin-bottom: 5px;
+    
+}
+
+.album-text p {
+   font-family: "Roboto", sans-serif; 
+   font-size: 14px;
+   font-weight: 100;
+   color: #f2f2f2;
+   margin-bottom: 10px;
+}
+
+/*---------------------------- New Album Out Now 
 
 .second-background-image {
     height: 100vh;
@@ -338,19 +413,36 @@ header {
     position: relative;
 }
 
+
+.album-image-container {
+    margin: 20px 30px; 
+    padding: 0;
+    border:0;
+    outline: 0;
+}
+
+
+.album-text-container {
+    margin-right: 10px;
+    margin-left: 10px
+}
+
 @media screen and (min-width: 768px) {
+    
     .album-image-container {
-        float: right;
+        margin-right: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
     }
     
-    .clearfix {
-        overflow: auto;
+    .album-text-container {
+        max-width: 350px;
+      
     }
 }
 
-.album-text-container {
-    max-width: 300px;
-}
+
 
 .album-text-container h3 {
     font-family: "Exo", sans-serif;
@@ -373,7 +465,7 @@ header {
    font-weight: 100;
    color: #f2f2f2;
    margin-bottom: 10px;
-}
+} */ 
 
 
 /* -----------------------------Footer */
