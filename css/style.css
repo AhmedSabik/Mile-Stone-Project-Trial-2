@@ -14,6 +14,7 @@ footer {
     margin: 0;
 }
 
+/* ----------------------------------------------------------------------------- Home -----*/
 
 /* ---------------------------- Sign In Alert -----*/
 
@@ -305,7 +306,7 @@ footer {
     font-size: 16px;
     /*line-height: 7px;*/
     text-align: center;
-    color: #fafafa;
+    color: #d9d9d9;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -320,22 +321,22 @@ footer {
     font-family: "Exo", sans-serif;
     font-size: 15px;
     font-weight: 300;
-    color: #dc3545;
+    color: #d9d9d9;
     margin-bottom: 10px;
     max-width: 320px;
 }
 
 /*---------- Book Us Now Button Manipulation */
 
-.social-details btn-outline-secondary {
+.book-us-btn button {
     color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
     transition: .3s;
 }
 
-.social-details btn-outline-secondary:hover {
-    color: #dc3545;
+.book-us-btn button:hover {
+    color: #ad1f2d;
     background-color: #ffffff;
     border-color: #ffffff;
     font-weight: 700;
@@ -397,75 +398,6 @@ footer {
    margin-bottom: 10px;
 }
 
-/*---------------------------- New Album Out Now 
-
-.second-background-image {
-    height: 100vh;
-    background: url('../images/03-background-home-top-image.jpg') no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s ease-in-out;
-    position: relative;
-}
-
-
-.album-image-container {
-    margin: 20px 30px; 
-    padding: 0;
-    border:0;
-    outline: 0;
-}
-
-
-.album-text-container {
-    margin-right: 10px;
-    margin-left: 10px
-}
-
-@media screen and (min-width: 768px) {
-    
-    .album-image-container {
-        margin-right: 0;
-        padding: 0;
-        border: 0;
-        outline: 0;
-    }
-    
-    .album-text-container {
-        max-width: 350px;
-      
-    }
-}
-
-
-
-.album-text-container h3 {
-    font-family: "Exo", sans-serif;
-    color: #dc3545;
-    margin-bottom: 5px;
-    margin-top: 0;
-    padding-top: 0;
-    
-}
-
-.album-text-container h4 {
-    font-family: "Exo", sans-serif;
-    color: #ffffff;
-    margin-bottom: 5px;
-    
-}
-
-.album-text-container p {
-   font-family: "Roboto", sans-serif; 
-   font-weight: 100;
-   color: #f2f2f2;
-   margin-bottom: 10px;
-} */ 
 
 
 /* -----------------------------Footer */
@@ -531,4 +463,42 @@ footer {
 
 .copyright-footer a:hover {
   color: #dc3545;
+}
+
+
+/* ----------------------------------------------------------------------------- About -----*/
+
+
+/*---------------------------- Main Image and Testimonial */
+
+.about-first-background-image {
+    height: 100vh;
+    background: url('../images/05-background-about-top-image.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    position: relative;
+    max-height: 600px;
+}
+
+/*---------------------------- Band Members */
+
+.about-second-background-image {
+    height: 100vh;
+    background: url('../images/06-background-about-bottom-image.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    position: relative;
+    /*max-height: 550px;*/
 }
