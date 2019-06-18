@@ -488,7 +488,7 @@ footer {
 
 /*---------------------------- Band Members */
 
-.about-second-background-image {
+/*.about-second-background-image {
     height: 100vh;
     background: url('../images/06-background-about-bottom-image.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
@@ -500,5 +500,29 @@ footer {
     justify-content: center;
     transition: all .5s ease-in-out;
     position: relative;
-    /*max-height: 550px;*/
+    max-height: 550px;
+}*/
+
+.about-second-background-image {
+    background-color: #000000;
+}
+
+.band-members-text h4 {
+    font-family: "Exo", sans-serif;
+    color: #dc3545;
+    margin-bottom: 5px;
+}
+
+.band-members-text p {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    color: #d9d9d9;
+    margin-bottom: 10px;
+    /*text-align:justify;  
+    text-justify:inter-character;*/
+}
+
+.learn-more-button {
+    margin-top: 25px;
 }
