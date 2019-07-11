@@ -526,3 +526,22 @@ footer {
 .learn-more-button {
     margin-top: 25px;
 }
+
+
+
+/* ----------------------------------------------------------------------------- Music -----*/
+
+
+.bg-album {
+        background-color: #000000;
+}
+
+
+.track-text {
+    margin-bottom: 5px;
+}
+
+audio {
+    margin-bottom: 10px;
+}
+
