@@ -488,21 +488,6 @@ footer {
 
 /*---------------------------- Band Members */
 
-/*.about-second-background-image {
-    height: 100vh;
-    background: url('../images/06-background-about-bottom-image.jpg') no-repeat top center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all .5s ease-in-out;
-    position: relative;
-    max-height: 550px;
-}*/
-
 .about-second-background-image {
     background-color: #000000;
 }
@@ -545,3 +530,78 @@ audio {
     margin-bottom: 10px;
 }
 
+
+
+/* ----------------------------------------------------------------------------- Vidoes -----*/
+
+
+.vidoe-background-image {
+    height: 100vh;
+    background: url('../images/06-background-about-bottom-image.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    position: relative;
+    max-height: 550px;
+}
+
+
+.video-heading {
+    font-family: "Exo", sans-serif;
+    color: #dc3545;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 10px
+    
+}
+
+.video-heading-text-one {
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   color: #f2f2f2;
+   max-width: 600px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 10px
+}
+
+.video-heading-text-two {
+   font-family: "Roboto", sans-serif;
+   font-weight: 300;
+   color: #ffffff;
+   max-width: 600px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 10px
+}
+
+.video-heading-text-two a {
+    color: #dc3545;
+    text-decoration: none;
+    transition: 0.5s; 
+    
+}
+
+.video-heading-text-two a:hover {
+    font-weight: 500;
+}
+
+.videos-bg {
+   background-color: #000000; 
+}
+
+iframe {
+    width: 100%;
+    min-height: 300px; 
+    border:none;
+}
+
+.card-deck {
+    margin-top: 40px;
+}
