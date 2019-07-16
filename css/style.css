@@ -676,3 +676,31 @@ input[type=submit]:hover {
 
 
 
+/* ----------------------------------------------------------------------------- Thanks -----*/
+
+.thanks-background-image {
+    height: 100vh;
+    background: url('../images/13-contact-background.jpg') no-repeat top center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s ease-in-out;
+    position: relative;
+    max-height: 768px;
+}
+
+
+.thanks-text {
+   font-family: "Roboto", sans-serif;
+   font-weight: 200;
+   color: #ffffff;
+   max-width: 600px;
+   margin-bottom: 10px;
+   margin-right: 10px;
+   margin-left: 10px
+}
+
