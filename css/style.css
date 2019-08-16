@@ -14,6 +14,19 @@ footer {
     margin: 0;
 }
 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+.col-12 {
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
 /* ----------------------------------------------------------------------------- Home -----*/
 
 /* ---------------------------- Sign In Alert -----*/
@@ -184,7 +197,7 @@ footer {
 
 .first-background-image {
     height: 100vh;
-    background: url('../images/01-background-home-top-image.jpg') no-repeat top center fixed;
+    background: url('../assets/images/01-background-home-top-image.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -322,8 +335,8 @@ footer {
     font-size: 15px;
     font-weight: 300;
     color: #d9d9d9;
-    margin-bottom: 10px;
-    max-width: 320px;
+    margin-bottom: 15px;
+    margin-top: 10px;
 }
 
 /*---------- Book Us Now Button Manipulation */
@@ -347,7 +360,7 @@ footer {
 
 .second-background-image {
     height: 100vh;
-    background: url('../images/03-background-home-top-image.jpg') no-repeat top center fixed;
+    background: url('../assets/images/03-background-home-top-image.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -473,7 +486,7 @@ footer {
 
 .about-first-background-image {
     height: 100vh;
-    background: url('../images/05-background-about-top-image.jpg') no-repeat top center fixed;
+    background: url('../assets/images/05-background-about-top-image.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -537,7 +550,7 @@ audio {
 
 .vidoe-background-image {
     height: 100vh;
-    background: url('../images/06-background-about-bottom-image.jpg') no-repeat top center fixed;
+    background: url('../assets/images/06-background-about-bottom-image.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -611,7 +624,7 @@ iframe {
 
 .contact-background-image {
     height: 100vh;
-    background: url('../images/13-contact-background.jpg') no-repeat top center fixed;
+    background: url('../assets/images/13-contact-background.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -680,7 +693,7 @@ input[type=submit]:hover {
 
 .thanks-background-image {
     height: 100vh;
-    background: url('../images/13-contact-background.jpg') no-repeat top center fixed;
+    background: url('../assets/images/13-contact-background.jpg') no-repeat top center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
