@@ -728,3 +728,16 @@ input[type=submit]:hover {
    margin-left: 10px
 }
 
+
+/* ----------------------------------------------------------------------------- Mockup -----*/
+
+.mockup-img {
+    width:1240px;
+    height:4207px;
+    background: url('../assets/images/15-mockup.jpg') no-repeat top center fixed;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
