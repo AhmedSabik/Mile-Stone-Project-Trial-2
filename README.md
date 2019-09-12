@@ -1,20 +1,74 @@
+<h3>RockThePalace</h3>
+<hr>
+<p>First Mile Stone Project: User-Centric Frontend Development - Code Institute</p>
+<p>This is a website built to promote a fictional British band that is specialised in sixties style Rock and Roll. The name RockThePalace came from two parts: Rock&Roll and The Palace, referring to the British Monarchy. The website features 5 pages, and was designed to capture the attention of fans and potential fans to learn about the band’s new albums, past albums, history and members and to contact and book them for shows and private parties.</p> 
 
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+<h3>Demo</h3>
+<hr>
+<p>A live demo can be found [here](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/27d9db604d2e414a859a0921b240ab61/preview/index.html).</p>
+![Tux, the Linux mascot](/assets/images/16-responsive.jpg)
+  
+<h3>UX</h3>
+<hr>
+<p>The goal of the design, as intended by the original mockup found [here](https://github.com/AhmedSabik/Mile-Stone-Project-Trial-2/blob/master/assets/images/15-mockup.jpg), was to create a visual identity for RockThePalace band, whilst making it easy for the visitor to read about the band members, history and work and navigate through the website.</p> 
+<p>The drive behind the main layout was to encourage the visitor to listen to new and old releases and watch the band’s video releases, as well as providing links to the band’s social media profiles.</p> 
+<p>A reminder of booking and a link to the contact pages was also placed in different locations of the website, to deliver and reinforce the message that the band is available for bookings.</p>
+<p>The Home page provided the reader with a brief overview of each of the band members, as well as a link to the music page.</p> 
+<p>The Music page showcased photos and audio from the band's catalogue.</p>  
+<p>The Music page showcased video clips embedded from the band's YouTube page.</p>  
+<p>The contact page offered two options: Either to contact the band directly via email, with links to different email providers, or to contact the band via a contact form that requested necessary information and a hint to remind the visitor that the band is available for booking.</p> 
 
+<h3>Technologies</h3>
+<hr>
+<ol>
+<li>HTML</li>
+<li>CSS</li>
+<li>Bootstrap 4</li>
+</ol>
 
-<h1>Hi there! Welcome to Cloud9 IDE!</h1>
+<h3>Features</h3>
+<hr>
+<p>The Design: 5 separate pages with similar two tone colours: black and red, with a main menu situated on the right hand side and social media and contact list situated at the bottom of each page.</p>  
+<p>The Main menu: utilised CSS3 powered Grow hover effect, with modification to fit layout original design. The menu does not collapse is smaller screen size for an easier and more friendly user experience.</p> 
+<p>The non-collapsible menu is located in a central location in smaller screen sizes and does not negatively impact the design.</p> 
+<p>Call to action buttons (such as: Book us now, Listen to .. etc): utilised Bootstrap’s Button Outline, with additional CSS manipulation.</p> 
+<p>Social media links: utilised Font Awesome icons with additional manipulation.</p> 
 
-To get you started, create some files, play with the terminal,
-or visit http://docs.c9.io for our documentation.
-If you want, you can also go watch some training videos at
-http://www.youtube.com/user/c9ide.
+<h3>Features Left to Implement</h3>
+<hr>
+<p>In the future I would like to add further albums and videos to create a more comprehensive content.</p> 
+<p>I would also like to replace the main background images with videos of concerts performed by the band.</p> 
+<p>Furthermore, I would like to add a separate page that hosts a blog that provides daily updates of the band’s activities and a page dedicated to sell their albums and individual songs online.</p> 
 
-Happy coding!
-The Cloud9 IDE team
+<h3>Testing</h3>
+<hr>
+<p>The website provides a comprehensive content about the band, their history and their work, with reviews about their work being highlighted in the main background image of each page.</p>  
+<p>The design of the website is responsive, and renders well on a variety of devices and screen sizes.</p>
+<p>The Home page features introduction to the band and its latest album, with 2 working links to Music page, a call to action button to make the visitor aware that the band is available for booking.</p>
+<p>The Social media links at the bottom links to outside resources and to the contact page. Social media and contact icons change colour smoothly upon hovering.</p> 
+<p>The Privacy link opens a new tab to a privacy policy template. Privacy link also changes colour smoothly upon hovering.</p> 
+<p>The Call to action buttons smoothly grow in size and change colour, for more attention.</p> 
+<p>About page features a different album, and links to the music page with a call to action button. Social media icons are displayed in two different locations to remind the visitor of the available outside resources. Fans can read information about the four members of the band. Another call to action button leads to the music page.</p> 
+<p>Music page features 3 albums, with a poster and a brief introduction to each and 3 working HTML Audio files. Music page is responsive, and designed to host more albums in the future.</p> 
+<p>Video page features 3 HTML working video elements, embedded from YouTube. Video page is responsive, and designed to host more videos in the future.</p> 
+<p>Contact page provides 2 options: Get in touch via email, using HTML <address> Tag that defines the contact information for the author/owner of the website. The visitor can choose to contact the band using the contact form, which utilises CSS Forms. The form will not submit if the visitor does not provide the required information, such as name, contact number, email address, etc. Furthermore, the email field is both required and required to be a valid email address format. A reminder message will appear in case an invalid email address provided, and the form will not submit.</p> 
+<p>On the top right corner of all pages a link to sign in/sign up could be found. The form will not submit if a valid email is not provided. An error message will also appear if the user attempts to submit an empty form.</p> 
+<p>The Mockup page was built for educational purposes, as I was not able to add a large image to the HTML file. Mockup page was kept as a reference to the code used to resolve the issue. Mockup image linked through Github as a better practice.</p> 
 
-  ![Tux, the Linux mascot](/assets/images/16-responsive.jpg)
+<h3>Deployment</h3>
+<hr>
+This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
+To run locally, you can clone this repository directly into the editor of your choice by pasting git clone: [https://ahmedsabik.github.io/Mile-Stone-Project-Trial-2/](https://ahmedsabik.github.io/Mile-Stone-Project-Trial-2/) into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
+
+<h3>Credits</h3>
+<hr>
+<h4>Content</h4>
+<ul>
+<li>All content is written by me, with the help of various articles about Rock and Roll bands from Wikipedia. 
+Media</li>
+<li>The photos used in this site were obtained from [Pexels](https://www.pexels.com/), a stock image library. All photos have been edited and manipulated using adobe Photoshop software.</li>
+<li>All videos used in this site were obtained from [The Muppets YouTube channel](https://www.youtube.com/user/MuppetsStudio).</li>
+<li>The location from which I obtained the sound file has unfortunately been lost.</li>
+</ul>
+	
+<strong>This website is for educational use</strong>.

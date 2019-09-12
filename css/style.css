@@ -732,12 +732,10 @@ input[type=submit]:hover {
 /* ----------------------------------------------------------------------------- Mockup -----*/
 
 .mockup-img {
-    width:1240px;
-    height:4207px;
-    background: url('../assets/images/15-mockup.jpg') no-repeat top center fixed;
-    display: flex;
-    justify-content: center;
-    position: relative;
+    height: 200vw;
+    background: url('../assets/images/15-mockup.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 
