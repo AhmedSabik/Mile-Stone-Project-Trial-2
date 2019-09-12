@@ -7,7 +7,7 @@
     ----------------------------------------------------------------- 
 
 
-Hi there! Welcome to Cloud9 IDE!
+<h1>Hi there! Welcome to Cloud9 IDE!</h1>
 
 To get you started, create some files, play with the terminal,
 or visit http://docs.c9.io for our documentation.
