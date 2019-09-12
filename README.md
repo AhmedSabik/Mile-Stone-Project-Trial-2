@@ -6,7 +6,7 @@ This is a website built to promote a fictional British band that is specialised 
 
 ### Demo
 
-A live demo can be found [here](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/27d9db604d2e414a859a0921b240ab61/preview/index.html).
+A live demo can be found [here](https://ahmedsabik.github.io/Mile-Stone-Project-Trial-2/). 
 ![Tux, the Linux mascot](/assets/images/16-responsive.jpg)
   
 ### UX
@@ -43,7 +43,7 @@ Call to action buttons (such as: Book us now, Listen to .. etc): utilised Bootst
 
 Social media links: utilised Font Awesome icons with additional manipulation.
 
-###Features Left to Implement
+### Features Left to Implement
 
 In the future I would like to add further albums and videos to create a more comprehensive content. 
 
