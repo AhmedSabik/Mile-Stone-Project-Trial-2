@@ -1,15 +1,15 @@
-###RockThePalace
+### RockThePalace
 
 First Mile Stone Project: User-Centric Frontend Development - Code Institute
 
 This is a website built to promote a fictional British band that is specialised in sixties style Rock and Roll. The name RockThePalace came from two parts: Rock&Roll and The Palace, referring to the British Monarchy. The website features 5 pages, and was designed to capture the attention of fans and potential fans to learn about the band’s new albums, past albums, history and members and to contact and book them for shows and private parties.
 
-###Demo
+### Demo
 
 A live demo can be found [here](https://vfs.cloud9.us-east-1.amazonaws.com/vfs/27d9db604d2e414a859a0921b240ab61/preview/index.html).
 ![Tux, the Linux mascot](/assets/images/16-responsive.jpg)
   
-###UX
+### UX
 
 The goal of the design, as intended by the original mockup found [here](https://github.com/AhmedSabik/Mile-Stone-Project-Trial-2/blob/master/assets/images/15-mockup.jpg), was to create a visual identity for RockThePalace band, whilst making it easy for the visitor to read about the band members, history and work and navigate through the website. 
 
@@ -25,13 +25,13 @@ The Music page showcased video clips embedded from the band's YouTube page.
 
 The contact page offered two options: Either to contact the band directly via email, with links to different email providers, or to contact the band via a contact form that requested necessary information and a hint to remind the visitor that the band is available for booking.
 
-###Technologies
+### Technologies
 
 - HTML
 - CSS
 - Bootstrap 4
 
-###Features
+### Features
 
 The Design: 5 separate pages with similar two tone colours: black and red, with a main menu situated on the right hand side and social media and contact list situated at the bottom of each page.
 
@@ -51,7 +51,7 @@ I would also like to replace the main background images with videos of concerts 
 
 Furthermore, I would like to add a separate page that hosts a blog that provides daily updates of the band’s activities and a page dedicated to sell their albums and individual songs online.
 
-###Testing
+### Testing
 
 The website provides a comprehensive content about the band, their history and their work, with reviews about their work being highlighted in the main background image of each page.  
 
@@ -77,19 +77,19 @@ On the top right corner of all pages a link to sign in/sign up could be found. T
 
 The Mockup page was built for educational purposes, as I was not able to add a large image to the HTML file. Mockup page was kept as a reference to the code used to resolve the issue. Mockup image linked through Github as a better practice.
 
-###Deployment
+### Deployment
 
 This site is hosted using GitHub pages, deployed directly from the master branch. The deployed site will update automatically upon new commits to the master branch. In order for the site to deploy correctly on GitHub pages, the landing page must be named index.html.
 
 To run locally, you can clone this repository directly into the editor of your choice by pasting git clone: [https://ahmedsabik.github.io/Mile-Stone-Project-Trial-2/](https://ahmedsabik.github.io/Mile-Stone-Project-Trial-2/) into your terminal. To cut ties with this GitHub repository, type git remote rm origin into the terminal.
 
-###Credits
+### Credits
 
-####Content
+#### Content
 
 - All content is written by me, with the help of various articles about Rock and Roll bands from Wikipedia. 
 
-####Media
+#### Media
 
 - The photos used in this site were obtained from [Pexels](https://www.pexels.com/), a stock image library. All photos have been edited and manipulated using adobe Photoshop software.
 - All videos used in this site were obtained from [The Muppets YouTube channel](https://www.youtube.com/user/MuppetsStudio).
