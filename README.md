@@ -35,7 +35,7 @@ The contact page offered two options: Either to contact the band directly via em
 
 The Design: 5 separate pages with similar two tone colours: black and red, with a main menu situated on the right hand side and social media and contact list situated at the bottom of each page.
 
-The Main menu: utilised CSS3 powered Grow hover effect, with modification to fit layout original design. The menu does not collapse is smaller screen size for an easier and more friendly user experience.
+The Main menu: utilised CSS3 powered Grow hover effect, with modification to fit layout original design. The menu does not collapse is smaller screen sizes for an easier and a friendlier user experience.
 
 The non-collapsible menu is located in a central location in smaller screen sizes and does not negatively impact the design.
 
@@ -59,15 +59,15 @@ The design of the website is responsive, and renders well on a variety of device
 
 The Home page features introduction to the band and its latest album, with 2 working links to Music page, a call to action button to make the visitor aware that the band is available for booking.
 
-The Social media links at the bottom links to outside resources and to the contact page. Social media and contact icons change colour smoothly upon hovering.
+The Social media icons at the bottom link to outside resources and to the contact page. The social media and contact icons change colour smoothly upon hovering.
 
 The Privacy link opens a new tab to a privacy policy template. Privacy link also changes colour smoothly upon hovering.
 
 The Call to action buttons smoothly grow in size and change colour, for more attention.
 
-About page features a different album, and links to the music page with a call to action button. Social media icons are displayed in two different locations to remind the visitor of the available outside resources. Fans can read information about the four members of the band. Another call to action button leads to the music page.
+The About page features a different album, and links to the Music page with a call to action button. The social media icons are displayed in two different locations to remind the visitor of the available outside resources. Fans can read information about the four members of the band. Another call to action button leads to the music page.
 
-Music page features 3 albums, with a poster and a brief introduction to each and 3 working HTML Audio files. Music page is responsive, and designed to host more albums in the future. 
+Music page features 3 albums, with a poster and a brief introduction to each and 3 working HTML Audio files. The Music page is responsive, and designed to host more albums in the future. 
 
 Video page features 3 HTML working video elements, embedded from YouTube. Video page is responsive, and designed to host more videos in the future.
 
@@ -75,7 +75,7 @@ Contact page provides 2 options: Get in touch via email, using HTML address Tag 
 
 On the top right corner of all pages a link to sign in/sign up could be found. The form will not submit if a valid email is not provided. An error message will also appear if the user attempts to submit an empty form.
 
-The Mockup page was built for educational purposes, as I was not able to add a large image to the HTML file. Mockup page was kept as a reference to the code used to resolve the issue. Mockup image linked through Github as a better practice.
+The Mockup page was built for educational purposes, as I was not able to add a large image to an HTML file. The Mockup page was kept as a reference to the code used to resolve the issue. The Mockup image has been linked through Github as a better practice.
 
 ### Deployment
 
