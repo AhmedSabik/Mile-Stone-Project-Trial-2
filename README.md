@@ -6,7 +6,7 @@ This is a website built to promote a fictional British band that is specialised 
 
 ### Demo
 
-A live demo can be found [here](https://ahmedsabik.github.io/Mile-Stone-Project-Trial-2/). 
+Please follow [RockThePalace](https://ahmedsabik.github.io/Mile-Stone-Project-Trial-2/) to check the live demo. 
 ![Tux, the Linux mascot](/assets/images/16-responsive.jpg)
   
 ### UX
