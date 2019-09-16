@@ -105,6 +105,6 @@ To run locally, you can clone this repository directly into the editor of your c
 - The photos used in this site were obtained from [Pexels](https://www.pexels.com/), a stock image library. All photos have been edited and manipulated using adobe Photoshop software.
 - All videos used in this site were obtained from [The Muppets YouTube channel](https://www.youtube.com/user/MuppetsStudio).
 - The privacy policy template was obstained from [docs.google.com](https://docs.google.com/document/d/1W3INZmdL8T72_HTKPXdC8L1wqXVkkwTdJwfyl0WppaQ/edit), and saved as a PDF file. 
-- The location from which I obtained the sound file has unfortunately been lost.
+- The audio file used in the music page was obtained from [Zedge](https://www.zedge.net/ringtones).
 	
 **This website is for educational use**.
