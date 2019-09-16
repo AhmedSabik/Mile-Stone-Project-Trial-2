@@ -82,7 +82,7 @@ On the top right corner of all pages a link to sign in/sign up could be found. T
 
 The Mockup page was built for educational purposes, as I was not able to add a large image to an HTML file. The Mockup page was kept as a reference to the code used to resolve the issue. The Mockup image has been linked through Github as a better practice.
 
-##### Techinal Problems
+#### Techinal Problems
 
 - A vertical white space could be scene across different screen sizes. The issue was resolved successfully using Google Chrome Developer tools. The website currently covers the whole screen across all platforms and devices. 
 - Date input placeholder text in the Contact page form was black, as opposed to the light grey color of the rest of the input placeholder text. Issue researched on [w3schools.com](https://www.w3schools.com) and [stackoverflow.com](https://stackoverflow.com/questions/31706433/how-can-i-change-the-text-color-of-chromes-input-date-placeholder). Default placeholder text color identified and the issue was resolved successfully.
@@ -104,7 +104,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 - The photos used in this site were obtained from [Pexels](https://www.pexels.com/), a stock image library. All photos have been edited and manipulated using adobe Photoshop software.
 - All videos used in this site were obtained from [The Muppets YouTube channel](https://www.youtube.com/user/MuppetsStudio).
-- The privacy policy template was obstained from [docs.google.com](https://docs.google.com/document/d/1W3INZmdL8T72_HTKPXdC8L1wqXVkkwTdJwfyl0WppaQ/edit), and saved as a PDF file. 
+- The privacy policy template was obtained from [docs.google.com](https://docs.google.com/document/d/1W3INZmdL8T72_HTKPXdC8L1wqXVkkwTdJwfyl0WppaQ/edit), and saved as a PDF file. 
 - The audio file used in the music page was obtained from [Zedge](https://www.zedge.net/ringtones).
 	
 **This website is for educational use**.
