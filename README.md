@@ -30,6 +30,11 @@ The contact page offered two options: Either to contact the band directly via em
 - HTML
 - CSS
 - Bootstrap 4
+- AWS Cloud9
+- Adobe Photoshop
+- [Google Fonts](https://fonts.google.com)
+- [Font Awesome](https://fontawesome.com)
+- Google Chrome Developer Tools
 
 ### Features
 
@@ -67,15 +72,21 @@ The Call to action buttons smoothly grow in size and change colour, for more att
 
 The About page features a different album, and links to the Music page with a call to action button. The social media icons are displayed in two different locations to remind the visitor of the available outside resources. Fans can read information about the four members of the band. Another call to action button leads to the music page.
 
-Music page features 3 albums, with a poster and a brief introduction to each and 3 working HTML Audio files. The Music page is responsive, and designed to host more albums in the future. 
+Music page features 3 albums, with a poster and a brief introduction to each and 3 working HTML Audio files. The Music page is responsive, and designed to host more albums in the future. Music has been elemets tested manualy. 
 
-Video page features 3 HTML working video elements, embedded from YouTube. Video page is responsive, and designed to host more videos in the future.
+Video page features 3 HTML working video elements, embedded from YouTube. Video page is responsive, and designed to host more videos in the future. Video links has been tested manualy. 
 
 Contact page provides 2 options: Get in touch via email, using HTML address Tag that defines the contact information for the author/owner of the website. The visitor can choose to contact the band using the contact form, which utilises CSS Forms. The form will not submit if the visitor does not provide the required information, such as name, contact number, email address, etc. Furthermore, the email field is both required and required to be a valid email address format. A reminder message will appear in case an invalid email address provided, and the form will not submit.
 
 On the top right corner of all pages a link to sign in/sign up could be found. The form will not submit if a valid email is not provided. An error message will also appear if the user attempts to submit an empty form.
 
 The Mockup page was built for educational purposes, as I was not able to add a large image to an HTML file. The Mockup page was kept as a reference to the code used to resolve the issue. The Mockup image has been linked through Github as a better practice.
+
+##### Techinal Problems
+
+- A vertical white space could be scene across different screen sizes. The issue was resolved successfully using Google Chrome Developer tools. The website currently covers the whole screen across all platforms and devices. 
+- Date input placeholder text in the Contact page form was black, as opposed to the light grey color of the rest of the input placeholder text. Issue researched on [w3schools.com](https://www.w3schools.com) and [stackoverflow.com](https://stackoverflow.com/questions/31706433/how-can-i-change-the-text-color-of-chromes-input-date-placeholder). Default placeholder text color identified and the issue was resolved successfully.
+- Only 1 youtube video was working. Issue researched on Stackoverflow and resolved successfully by adding the word embed to the youtube link.  
 
 ### Deployment
 
@@ -93,6 +104,7 @@ To run locally, you can clone this repository directly into the editor of your c
 
 - The photos used in this site were obtained from [Pexels](https://www.pexels.com/), a stock image library. All photos have been edited and manipulated using adobe Photoshop software.
 - All videos used in this site were obtained from [The Muppets YouTube channel](https://www.youtube.com/user/MuppetsStudio).
+- The privacy policy template was obstained from [docs.google.com](https://docs.google.com/document/d/1W3INZmdL8T72_HTKPXdC8L1wqXVkkwTdJwfyl0WppaQ/edit), and saved as a PDF file. 
 - The location from which I obtained the sound file has unfortunately been lost.
 	
 **This website is for educational use**.

@@ -666,6 +666,27 @@ input[type=email], select, textarea {
   resize: vertical 
 }
 
+input[type=tel], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=date], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
 
 input[type=submit] {
   background-color: #c32232;
@@ -679,6 +700,12 @@ input[type=submit] {
 
 input[type=submit]:hover {
   background-color: #821722;
+}
+
+/* --- Input date placeholder color change: -- */
+
+input[type=date]:invalid::-webkit-datetime-edit {
+    color: #8e8e8e;
 }
 
 
