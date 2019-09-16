@@ -72,11 +72,11 @@ The Call to action buttons smoothly grow in size and change colour, for more att
 
 The About page features a different album, and links to the Music page with a call to action button. The social media icons are displayed in two different locations to remind the visitor of the available outside resources. Fans can read information about the four members of the band. Another call to action button leads to the music page.
 
-Music page features 3 albums, with a poster and a brief introduction to each and 3 working HTML Audio files. The Music page is responsive, and designed to host more albums in the future. Music has been elemets tested manualy. 
+The Music page features 3 albums, with a poster and a brief introduction to each and 3 working HTML Audio files. The Music page is responsive, and designed to host more albums in the future. Music has been elemets tested manualy. 
 
-Video page features 3 HTML working video elements, embedded from YouTube. Video page is responsive, and designed to host more videos in the future. Video links has been tested manualy. 
+The Video page features 3 HTML working video elements, embedded from YouTube. Video page is responsive, and designed to host more videos in the future. Video links has been tested manualy. 
 
-Contact page provides 2 options: Get in touch via email, using HTML address Tag that defines the contact information for the author/owner of the website. The visitor can choose to contact the band using the contact form, which utilises CSS Forms. The form will not submit if the visitor does not provide the required information, such as name, contact number, email address, etc. Furthermore, the email field is both required and required to be a valid email address format. A reminder message will appear in case an invalid email address provided, and the form will not submit.
+The Contact page provides 2 options: Get in touch via email, using HTML address Tag that defines the contact information for the author/owner of the website. The visitor can choose to contact the band using the contact form, which utilises CSS Forms. The form will not submit if the visitor does not provide the required information, such as name, contact number, email address, etc. Furthermore, the email field is both required and required to be a valid email address format. A reminder message will appear in case an invalid email address provided, and the form will not submit.
 
 On the top right corner of all pages a link to sign in/sign up could be found. The form will not submit if a valid email is not provided. An error message will also appear if the user attempts to submit an empty form.
 
